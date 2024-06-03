@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Design Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Mouse 2</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Check the console</h1>
+    <header>
+        <div class="container">
+            <div class="logo">Logo Goes Here</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart">Cart (3)</div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Apple - Magic Mouse 2 Space Grey</h1>
+                <p class="price"><span class="old-price">$199</span> $100</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="hero-image">
+                <img src="images/magic-mouse.jpg" alt="Magic Mouse 2">
+            </div>
+        </div>
+    </section>
+    
+    <section class="grid">
+        <div class="container">
+            <h2>Grid</h2>
+            <div class="grid-gallery">
+            </div>
+        </div>
+    </section>
+    
+    <section class="about">
+        <div class="container">
+            <h2>About</h2>
+            <p>Express yourself! Write your own Lorem ipsum text...</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Item title</td>
+                        <td>Here goes item description in my fancy table</td>
+                        <td>$100.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="open-modal">Open Modal</button>
+        </div>
+    </section>
+    
+    <section class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com">
+                
+                <label for="phone">Contact Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                
+                <label for="comment">Comment</label>
+                <textarea id="comment" name="comment" placeholder="Message..."></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-info">
+                <p>Get in touch</p>
+                <p>info@blabla.mk</p>
+                <p>(389) 3222-111</p>
+                <p>Blvd. Partizanska 62, 1000 Skopje, Macedonia</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Copyright 2022 - Nextsense</p>
+        </div>
+    </footer>
+    
   <script src="bundle.js"></script>
 </body>
 </html>
